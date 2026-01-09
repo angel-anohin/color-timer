@@ -1,0 +1,83 @@
+.theColor {
+    position: relative;
+    background-color: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    left: 45%;
+    top: 50px;
+    display: inline-block;
+}
+
+.color-button {
+    width: 80px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#button1 {
+    position: relative;
+    top: 350px;
+    display: inline-block;
+}
+
+#button2 {
+    position: relative;
+    top: 50px;
+    left: 150px;
+    display: inline-block;
+}
+
+#button3 {
+    position: relative;
+    top: 350px;
+    left: 150px;
+    display: inline-block;
+}
+
+#button4 {
+    position: relative;
+    top: 50px;
+    left: 450px;
+    display: inline-block;
+}
+
+#button5 {
+    position: relative;
+    top: 200px;
+    left: 200px;
+    display: inline-block;
+}
+
+#button6 {
+    position: relative;
+    top: 350px;
+    left: 25px;
+    display: inline-block;
+}
+
+#button7 {
+    position: relative;
+    top: 150px;
+    left: 450px;
+    display: inline-block;
+}
+
+#button8 {
+    position: relative;
+    top: 250px;
+    left: 250px;
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    .game-wrapper {
+        transform: scale(0.8);
+        transform-origin: top center;
+    }
+}
